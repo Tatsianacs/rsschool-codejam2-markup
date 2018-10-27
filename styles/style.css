@@ -1,0 +1,164 @@
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/latomedium.woff') format('woff'),
+    url('../fonts/latomedium.ttf') format('truetype');
+}
+
+html {
+    font-size: 10px;
+    
+}
+body {
+    font-family: Lato, Arial, sans serif;
+    
+}
+.wrapper {
+    max-width: 1197px;
+    margin: 0 auto;
+}
+
+.header-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 88px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.15);
+}
+
+header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+.logo a {
+    width: 133px;
+    height: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu-item {
+    margin-left: 68px;
+    padding: 35px 0 35px;
+    border-width: 1px 0;
+    border-color: transparent;
+    border-style: solid;
+}
+
+.menu-item:hover {
+    border-bottom-color: white;
+}
+
+.menu-link {
+color: #ffffff;
+font-family: Lato, Arial, sans-serif;
+font-size: 1.6rem;
+font-weight: 500;
+}
+
+.menu-item a {
+    text-decoration: none;
+}
+
+/*   Banner   */
+.banner {
+    padding-top: 375px; /* why padding here not in h1? */
+    height: 1065px;
+    background: url("../img/banner.png") no-repeat center top;
+    background-color: #010102;
+    box-sizing: border-box;
+}
+.banner h1 {
+    color: #ffffff;
+    font-family: 'PT Sans', sans-serif; /* check similar fonts */
+    font-size: 7.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 10px;
+
+
+}
+.banner .wrapper div {
+  color: #ffffff;
+  font-family: Georgia, sans-serif;
+  font-style: italic;
+  font-size: 3.2rem;
+  text-align: center;
+  line-height: 44px;
+  margin-top: 0;
+}
+
+/*   Login/Register   */
+.login {
+  height: 120px;
+  background-color: rgba(32, 55, 71, 0.91);
+  opacity: 1; 
+  position: absolute;
+  left: 0;  /* need to stretch the block Without these left right it will be hidden if no text!*/
+  right: 51%;
+  z-index: 11;
+  top: 945px;
+}
+.login h2 {
+color: #ffffff;
+font-family: Lato;
+font-size: 2.2rem;
+font-weight: 700;
+text-transform: uppercase;
+text-align: right;
+margin-top: 47px;
+margin-right: 240px;
+cursor: pointer;
+transition: font-size 300ms;
+}
+.register {
+  height: 120px;
+  background-color: rgba(57, 208, 131, 0.91);
+  opacity: 0.91; 
+  position: absolute;
+  left: 0;  /* need to stretch the block Without these left right it will be hidden if no text!*/
+  right: 0;
+  z-index: 10;
+  top: 945px;
+  text-transform: uppercase;
+}
+.register h2 {
+color: #ffffff;
+font-family: Lato;
+font-size: 2.2rem;
+font-weight: 700;
+text-transform: uppercase;
+text-align: center;
+margin-top: 47px;
+margin-left: 602px;  /* need % */
+cursor: pointer;
+transition: font-size 300ms;
+}
+.arrow {
+position: absolute;
+left:49%;
+top: 945px;
+z-index:11;
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 120px 30px 0 0;
+border-color: rgba(32, 55, 71, 0.91) transparent transparent transparent;
+}
+h2:hover {
+font-size: 3rem;
+}
+/* Footer */
+footer{
+  background-color:#d9e4ea;
+  min-height:300px;
+  text-align:center;
+}
