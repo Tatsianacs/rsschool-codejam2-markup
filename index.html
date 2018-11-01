@@ -17,12 +17,12 @@
         <div class="logo"><a href="#"><img src="img/logo.png" alt="site logo" width="133" height="29"/></a></div>
         <nav class="navigation">
           <ul class="menu">
-            <li class="menu-item"><a href="#" class="menu-link">Home</a></li>   <!-- Add ancors!!! -->
-            <li class="menu-item"><a href="#" class="menu-link">Domain</a></li>
-            <li class="menu-item"><a href="#" class="menu-link">Hosting</a></li>
-            <li class="menu-item"><a href="#" class="menu-link">Clients</a></li>
-            <li class="menu-item"><a href="#" class="menu-link">Blog</a></li>
-            <li class="menu-item"><a href="#" class="menu-link">Support</a></li>
+            <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+            <li class="menu-item"><a href="#domain" class="menu-link">Domain</a></li>
+            <li class="menu-item"><a href="#packages" class="menu-link">Hosting</a></li>
+            <li class="menu-item"><a href="#team" class="menu-link">Clients</a></li>
+            <li class="menu-item"><a href="#comments" class="menu-link">Blog</a></li>
+            <li class="menu-item"><a href="#functions" class="menu-link">Support</a></li>
           </ul>
         </nav>
       </div>
@@ -43,7 +43,7 @@
     </section>
   </div>
   <main>
-    <section class="domain">
+    <section class="domain" id="domain">
       <div class="wrapper">
         <h2>Would you like to buy a new domain ?</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse auctor mauris ac nulla interdum, id
@@ -75,7 +75,7 @@
         </table>
       </div>
     </section>
-    <section class="packages">  <!-- test for adding /removing columns!!!-->
+    <section class="packages" id="packages">
       <div class="wrapper">
         <ul class="packages-wrap">
           <li class="packages-item item-1">
@@ -238,7 +238,7 @@
       </div>
     </section>
     <hr class="border-dashed">
-    <section class="about-us">
+    <section class="about-us" id="team">
       <div class="wrapper">
         <div class="about-main-container">
           <div class="about-us-description">
@@ -252,7 +252,7 @@
           <div class="dashed-border-vertical"></div>
           <div class="about-us-list">
             <div class="team-item">
-              <div class="team-item-img"><img src="img/about-11.png" alt="team member 1" width="90" height="90"/></div>
+              <div class="team-item-img"><img src="img/about-1.png" alt="team member 1" width="90" height="90"/></div>
               <h4>Jonny Doe</h4>
               <span class="team-item-job">Designer</span>
               <div class="social">
@@ -287,78 +287,64 @@
         </div>
       </div>
     </section>
-    <!--<section class="comments">-->
-    <!--<div class="wrapper">-->
-    <!--<div class="comments-slider">-->
-    <!--<div class="quote">-->
-    <!--<blockquote class="quote-text">“1 Suspendisse tempor turpis odio, sit amet cursus leo consequat non.-->
-    <!--Maecenas-->
-    <!--lacinia faucibus enimqui-->
-    <!--interdum dolor pulvinar vitae.”-->
-    <!--</blockquote>-->
-    <!--<span class="quote-author">John Doe</span>-->
-    <!--</div>-->
-    <!--</div>-->
-    <!--</div>-->
-    <!--</section>-->
+    <section id="comments">
+      <div class="slider-container">
+        <div class="slider-menu">
+          <label for="slide-dot-1"></label>
+          <label for="slide-dot-2"></label>
+          <label for="slide-dot-3"></label>
+        </div>
 
+        <input id="slide-dot-1" type="radio" name="slides" checked>
+        <div class="slide slide-1">
+          <blockquote class="quote-text">“Suspendisse tempor turpis odio, sit amet cursus leo consequat non.
+            Maecenas lacinia faucibus enimqui interdum dolor pulvinar vitae.”
+          </blockquote>
+          <span class="quote-author">John Doe</span></div>
 
-    <div class="slider-container">
-      <div class="slider-menu">
-        <label for="slide-dot-1"></label>
-        <label for="slide-dot-2"></label>
-        <label for="slide-dot-3"></label>
+        <input id="slide-dot-2" type="radio" name="slides">
+        <div class="slide slide-2">
+          <blockquote class="quote-text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent feugiat eget
+            diam sit amet molestie.”
+          </blockquote>
+          <span class="quote-author">Marry Doe</span></div>
+
+        <input id="slide-dot-3" type="radio" name="slides">
+        <div class="slide slide-3">
+          <blockquote class="quote-text">“Curabitur. ut ipsum bibendum tortor lacinia fermentum nec joeıa. Mauris at
+            augue
+            libero.”
+          </blockquote>
+          <span class="quote-author">Jon Moon</span></div>
       </div>
 
-      <input id="slide-dot-1" type="radio" name="slides" checked>
-      <div class="slide slide-1">
-        <blockquote class="quote-text">“Suspendisse tempor turpis odio, sit amet cursus leo consequat non.
-          Maecenas lacinia faucibus enimqui interdum dolor pulvinar vitae.”
-        </blockquote>
-        <span class="quote-author">John Doe</span></div>
 
-      <input id="slide-dot-2" type="radio" name="slides">
-      <div class="slide slide-2">
-        <blockquote class="quote-text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent feugiat eget
-          diam sit amet molestie.”
-        </blockquote>
-        <span class="quote-author">Marry Doe</span></div>
-
-      <input id="slide-dot-3" type="radio" name="slides">
-      <div class="slide slide-3">
-        <blockquote class="quote-text">“Curabitur. ut ipsum bibendum tortor lacinia fermentum nec joeıa. Mauris at augue
-          libero.”
-        </blockquote>
-        <span class="quote-author">Jon Moon</span></div>
-    </div>
-
-
-    <section class="functions wrapper">
-      <div class="function-list-item">
-        <div class="function-list-icon icon1"><i class="fa fa-bolt" aria-hidden="true"></i></div>
-        <h2>Fast Servers</h2>
-        <p>Nulla dapibus neque augue, quis
-          tincidunt tortor aliquam vitae.</p>
-      </div>
-      <div class="function-list-item">
-        <div class="function-list-icon icon2"><i class="fa fa-cloud" aria-hidden="true"></i></div>
-        <h2>Cloud Servers</h2>
-        <p>Nulla dapibus neque augue, quis
-          tincidunt tortor aliquam vitae.</p>
-      </div>
-      <div class="function-list-item">
-        <div class="function-list-icon icon3"><i class="fa fa-arrows" aria-hidden="true"></i></div>
-        <h2>Domain Transfer</h2>
-        <p>Nulla dapibus neque augue, quis
-          tincidunt tortor aliquam vitae.</p>
-      </div>
-      <div class="function-list-item">
-        <div class="function-list-icon icon4"><i class="fa fa-comments" aria-hidden="true"></i></div>
-        <h2>Live Support</h2>
-        <p>Nulla dapibus neque augue, quis
-          tincidunt tortor aliquam vitae.</p>
-      </div>
-    </section>
+      <section class="functions wrapper" id="functions">
+        <div class="function-list-item">
+          <div class="function-list-icon icon1"><i class="fa fa-bolt" aria-hidden="true"></i></div>
+          <h2>Fast Servers</h2>
+          <p>Nulla dapibus neque augue, quis
+            tincidunt tortor aliquam vitae.</p>
+        </div>
+        <div class="function-list-item">
+          <div class="function-list-icon icon2"><i class="fa fa-cloud" aria-hidden="true"></i></div>
+          <h2>Cloud Servers</h2>
+          <p>Nulla dapibus neque augue, quis
+            tincidunt tortor aliquam vitae.</p>
+        </div>
+        <div class="function-list-item">
+          <div class="function-list-icon icon3"><i class="fa fa-arrows" aria-hidden="true"></i></div>
+          <h2>Domain Transfer</h2>
+          <p>Nulla dapibus neque augue, quis
+            tincidunt tortor aliquam vitae.</p>
+        </div>
+        <div class="function-list-item">
+          <div class="function-list-icon icon4"><i class="fa fa-comments" aria-hidden="true"></i></div>
+          <h2>Live Support</h2>
+          <p>Nulla dapibus neque augue, quis
+            tincidunt tortor aliquam vitae.</p>
+        </div>
+      </section>
   </main>
 </div>
 <footer class="footer">
@@ -367,7 +353,7 @@
       <div class="logo"><a href="#"><img src="img/logo-footer.png" alt="site logo" width="133" height="29"/></a></div>
       <nav>
         <ul class="footer-nav">
-          <li class="footer-item"><a href="#" class="footer-item-link">Home</a></li>   <!-- Add ancors!!! -->
+          <li class="footer-item"><a href="#" class="footer-item-link">Home</a></li>
           <li class="footer-item"><a href="#" class="footer-item-link">About us</a></li>
           <li class="footer-item"><a href="#" class="footer-item-link">Blog</a></li>
           <li class="footer-item"><a href="#" class="footer-item-link">Policy</a></li>
