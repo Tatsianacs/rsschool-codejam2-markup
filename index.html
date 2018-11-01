@@ -8,9 +8,6 @@
   <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900%7CMontserrat:100" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
   <link href="styles/style.css" rel="stylesheet" type="text/css">
-  <link href="styles/slick.css" rel="stylesheet" type="text/css">
-  <script type="text/javascript" src="js/slick.min.js"></script>
-  <script type="text/javascript" src="js/custom.js"></script>
 </head>
 <body>
 <div class="content">
@@ -255,7 +252,7 @@
           <div class="dashed-border-vertical"></div>
           <div class="about-us-list">
             <div class="team-item">
-              <div class="team-item-img"><img src="img/about-1.png" alt="team member 1" width="90" height="90"/></div>
+              <div class="team-item-img"><img src="img/about-11.png" alt="team member 1" width="90" height="90"/></div>
               <h4>Jonny Doe</h4>
               <span class="team-item-job">Designer</span>
               <div class="social">
@@ -290,36 +287,52 @@
         </div>
       </div>
     </section>
-    <section class="comments">
-      <div class="wrapper">
-        <div class="comments-slider">
-          <div class="quote">
-            <blockquote class="quote-text">“1 Suspendisse tempor turpis odio, sit amet cursus leo consequat non.
-              Maecenas
-              lacinia faucibus enimqui
-              interdum dolor pulvinar vitae.”
-            </blockquote>
-            <span class="quote-author">John Doe</span>
-          </div>
-          <div class="quote">
-            <blockquote class="quote-text">“2 Suspendisse tempor turpis odio, sit amet cursus leo consequat non.
-              Maecenas
-              lacinia faucibus enimqui
-              interdum dolor pulvinar vitae.”
-            </blockquote>
-            <span class="quote-author">John Doe</span>
-          </div>
-          <div class="quote">
-            <blockquote class="quote-text">“3 Suspendisse tempor turpis odio, sit amet cursus leo consequat non.
-              Maecenas
-              lacinia faucibus enimqui
-              interdum dolor pulvinar vitae.”
-            </blockquote>
-            <span class="quote-author">John Doe</span>
-          </div>
-        </div>
+    <!--<section class="comments">-->
+    <!--<div class="wrapper">-->
+    <!--<div class="comments-slider">-->
+    <!--<div class="quote">-->
+    <!--<blockquote class="quote-text">“1 Suspendisse tempor turpis odio, sit amet cursus leo consequat non.-->
+    <!--Maecenas-->
+    <!--lacinia faucibus enimqui-->
+    <!--interdum dolor pulvinar vitae.”-->
+    <!--</blockquote>-->
+    <!--<span class="quote-author">John Doe</span>-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--</section>-->
+
+
+    <div class="slider-container">
+      <div class="slider-menu">
+        <label for="slide-dot-1"></label>
+        <label for="slide-dot-2"></label>
+        <label for="slide-dot-3"></label>
       </div>
-    </section>
+
+      <input id="slide-dot-1" type="radio" name="slides" checked>
+      <div class="slide slide-1">
+        <blockquote class="quote-text">“Suspendisse tempor turpis odio, sit amet cursus leo consequat non.
+          Maecenas lacinia faucibus enimqui interdum dolor pulvinar vitae.”
+        </blockquote>
+        <span class="quote-author">John Doe</span></div>
+
+      <input id="slide-dot-2" type="radio" name="slides">
+      <div class="slide slide-2">
+        <blockquote class="quote-text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent feugiat eget
+          diam sit amet molestie.”
+        </blockquote>
+        <span class="quote-author">Marry Doe</span></div>
+
+      <input id="slide-dot-3" type="radio" name="slides">
+      <div class="slide slide-3">
+        <blockquote class="quote-text">“Curabitur. ut ipsum bibendum tortor lacinia fermentum nec joeıa. Mauris at augue
+          libero.”
+        </blockquote>
+        <span class="quote-author">Jon Moon</span></div>
+    </div>
+
+
     <section class="functions wrapper">
       <div class="function-list-item">
         <div class="function-list-icon icon1"><i class="fa fa-bolt" aria-hidden="true"></i></div>
