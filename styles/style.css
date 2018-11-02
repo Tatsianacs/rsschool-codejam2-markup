@@ -636,6 +636,7 @@ i.fa-twitter {
   background: url("../img/comments-1.jpg") repeat-x center top;
   color: #ffffff;
   text-align: center;
+  min-width: 1200px;
 }
 
 .quote-text {
