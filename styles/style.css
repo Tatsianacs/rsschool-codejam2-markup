@@ -631,68 +631,11 @@ i.fa-twitter {
 
 /* Comments */
 
-.slider-container {
+.comments {
   height: 190px;
-  color: #ffffff;
-  width: 100%;
-  position: relative;
-  overflow: hidden;
-  text-align: center;
-}
-
-.slider-menu {
-  position: absolute;
-  left: 0;
-  z-index: 900;
-  width: 106%;
-  bottom: 43px;
-
-}
-
-.slider-menu label {
-  cursor: pointer;
-  display: inline-block;
-  width: 6px;
-  height: 6px;
-  border-radius: 50px;
-  margin: 0 .5em 1em;
-  background: transparent;
-  border: 1px solid #fff;
-}
-
-.slider-menu label:hover {
-  background: #ffffff;
-}
-
-.slide {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 100%;
-  z-index: 10;
-  padding: 3em 1em 0;
-  background-size: cover;
-  background-position: 50% 50%;
-  transition: left 0s .75s;
-}
-
-[id^="slide"]:checked + .slide {
-  left: 0;
-  z-index: 100;
-  transition: left .65s ease-out;
-}
-
-.slide-1 {
   background: url("../img/comments-1.jpg") repeat-x center top;
-}
-
-.slide-2 {
-  background: url("../img/comments-2.jpg") repeat-x center top;
-}
-
-.slide-3 {
-  background: url("../img/comments-3.jpg") repeat-x center top;
+  color: #ffffff;
+  text-align: center;
 }
 
 .quote-text {
@@ -702,20 +645,17 @@ i.fa-twitter {
   line-height: 30px;
   letter-spacing: 0.2px;
   text-align: center;
-  margin: 0 auto;
   width: 965px;
-  padding-top: 16px;
+  padding-top: 46px;
+  margin: 0 auto 13px;
 }
 
 .quote-author {
-  position: absolute;
   font-size: 2rem;
   font-weight: 700;
   line-height: 20px;
-  bottom: 80px;
-  left: 45%;
-  padding-right: 13px;
-  border-right: 1px solid rgba(255, 255, 255, 0.5);
+  padding-left: 13px;
+  margin-top: 10px;
 }
 
 /* Functions */
@@ -938,5 +878,4 @@ i.fa-twitter {
 .footer-phone-link:hover, .footer-email-link:hover {
   color: #fffefe;
 }
-
 

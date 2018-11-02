@@ -8,6 +8,7 @@
   <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900%7CMontserrat:100" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
   <link href="styles/style.css" rel="stylesheet">
+  <link href="styles/slick.css" rel="stylesheet">
 </head>
 <body>
 <div class="content">
@@ -287,35 +288,28 @@
         </div>
       </div>
     </section>
-    <section id="comments">
-      <div class="slider-container">
-        <div class="slider-menu">
-          <label for="slide-dot-1"></label>
-          <label for="slide-dot-2"></label>
-          <label for="slide-dot-3"></label>
+    <section class="comments " id="comments">
+      <div class="wrapper">
+        <div class="comments-slider">
+          <div class="slide slide-1">
+            <blockquote class="quote-text">“Suspendisse tempor turpis odio, sit amet cursus leo consequat non.
+              Maecenas lacinia faucibus enimqui interdum dolor pulvinar vitae.”<span
+                      class="quote-author">John Doe</span>
+            </blockquote>
+          </div>
+          <div class="slide slide-2">
+            <blockquote class="quote-text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent feugiat
+              eget
+              diam sit amet molestie.”<span class="quote-author">Marry Doe</span>
+            </blockquote>
+          </div>
+          <div class="slide slide-3">
+            <blockquote class="quote-text">“Curabitur. ut ipsum bibendum tortor lacinia fermentum nec joeıa. Mauris at
+              augue
+              libero.”<span class="quote-author">Jon Moon</span>
+            </blockquote>
+          </div>
         </div>
-
-        <input id="slide-dot-1" type="radio" name="slides" checked>
-        <div class="slide slide-1">
-          <blockquote class="quote-text">“Suspendisse tempor turpis odio, sit amet cursus leo consequat non.
-            Maecenas lacinia faucibus enimqui interdum dolor pulvinar vitae.”
-          </blockquote>
-          <span class="quote-author">John Doe</span></div>
-
-        <input id="slide-dot-2" type="radio" name="slides">
-        <div class="slide slide-2">
-          <blockquote class="quote-text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent feugiat eget
-            diam sit amet molestie.”
-          </blockquote>
-          <span class="quote-author">Marry Doe</span></div>
-
-        <input id="slide-dot-3" type="radio" name="slides">
-        <div class="slide slide-3">
-          <blockquote class="quote-text">“Curabitur. ut ipsum bibendum tortor lacinia fermentum nec joeıa. Mauris at
-            augue
-            libero.”
-          </blockquote>
-          <span class="quote-author">Jon Moon</span></div>
       </div>
     </section>
 
@@ -394,5 +388,8 @@
     </div>
   </div>
 </footer>
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/custom.js"></script>
 </body>
 </html>
